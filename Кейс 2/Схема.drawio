@@ -1,0 +1,151 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="STr-TcszP0Cwh3si_XtC">
+    <mxGraphModel dx="2054" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ompeycCSl4_j8ebfsHY6-3" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Регистрация заявки" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Первичная проверка" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-10" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Результат&lt;br&gt;accept?" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-5" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Заявка отклонена" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-7" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-8" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Нет" vertex="1">
+          <mxGeometry height="20" width="30" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Согласование руководителем" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-11" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Да" vertex="1">
+          <mxGeometry height="20" width="30" x="160" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-15" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Результат&lt;br&gt;return?" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-13" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-17" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.3108" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="560" />
+              <mxPoint x="570" y="560" />
+              <mxPoint x="570" y="120" />
+              <mxPoint x="100" y="120" />
+            </Array>
+            <mxPoint x="100" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Доработка заявки" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-16" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Да" vertex="1">
+          <mxGeometry height="20" width="30" x="360" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-22" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-18" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Результат&lt;br&gt;accept?" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-19" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-20" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Нет" vertex="1">
+          <mxGeometry height="20" width="30" x="300" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Проверка бюджета" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-23" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Да" vertex="1">
+          <mxGeometry height="20" width="30" x="360" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-27" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Результат&lt;br&gt;cancel?" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-25" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-26" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Нет" vertex="1">
+          <mxGeometry height="20" width="30" x="300" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-28" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Заявка отменена" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-29" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-30" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Да" vertex="1">
+          <mxGeometry height="20" width="30" x="300" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-31" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Нет" vertex="1">
+          <mxGeometry height="20" width="30" x="210" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-35" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-38" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-32" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Сумма &amp;gt;&lt;br&gt;150000?" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-33" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-40" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.1176" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="860" />
+            </Array>
+            <mxPoint x="570" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Дополнительное согласование" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-36" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Да" vertex="1">
+          <mxGeometry height="20" width="30" x="630" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Исполнение закупки" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-39" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Нет" vertex="1">
+          <mxGeometry height="20" width="30" x="570" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-41" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Заявка выполнена" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="ompeycCSl4_j8ebfsHY6-42" edge="1" parent="1" source="ompeycCSl4_j8ebfsHY6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ompeycCSl4_j8ebfsHY6-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
